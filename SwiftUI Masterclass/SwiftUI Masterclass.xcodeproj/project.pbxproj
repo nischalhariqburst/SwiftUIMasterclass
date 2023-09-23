@@ -16,6 +16,10 @@
 		0B6BFBC32ABE91EE0087F07B /* SwiftUI_MasterclassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6BFBC22ABE91EE0087F07B /* SwiftUI_MasterclassTests.swift */; };
 		0B6BFBCD2ABE91EE0087F07B /* SwiftUI_MasterclassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6BFBCC2ABE91EE0087F07B /* SwiftUI_MasterclassUITests.swift */; };
 		0B6BFBCF2ABE91EE0087F07B /* SwiftUI_MasterclassUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6BFBCE2ABE91EE0087F07B /* SwiftUI_MasterclassUITestsLaunchTests.swift */; };
+		0B6BFBDD2ABE95590087F07B /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6BFBDC2ABE95590087F07B /* Animations.swift */; };
+		0B6BFBDF2ABE95650087F07B /* AnimationTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6BFBDE2ABE95650087F07B /* AnimationTiming.swift */; };
+		0B6BFBE12ABEBFCB0087F07B /* AnimationsUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6BFBE02ABEBFCB0087F07B /* AnimationsUpdated.swift */; };
+		0B6BFBE32ABEC0CC0087F07B /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6BFBE22ABEC0CC0087F07B /* Transitions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,10 @@
 		0B6BFBC82ABE91EE0087F07B /* SwiftUI MasterclassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI MasterclassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B6BFBCC2ABE91EE0087F07B /* SwiftUI_MasterclassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MasterclassUITests.swift; sourceTree = "<group>"; };
 		0B6BFBCE2ABE91EE0087F07B /* SwiftUI_MasterclassUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_MasterclassUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B6BFBDC2ABE95590087F07B /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		0B6BFBDE2ABE95650087F07B /* AnimationTiming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationTiming.swift; sourceTree = "<group>"; };
+		0B6BFBE02ABEBFCB0087F07B /* AnimationsUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsUpdated.swift; sourceTree = "<group>"; };
+		0B6BFBE22ABEC0CC0087F07B /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,7 @@
 				0B6BFBB52ABE91EE0087F07B /* Persistence.swift */,
 				0B6BFBB72ABE91EE0087F07B /* SwiftUI_Masterclass.xcdatamodeld */,
 				0B6BFBB22ABE91EE0087F07B /* Preview Content */,
+				0B6BFBDB2ABE95000087F07B /* Animations and Transitions */,
 			);
 			path = "SwiftUI Masterclass";
 			sourceTree = "<group>";
@@ -131,6 +140,17 @@
 				0B6BFBCE2ABE91EE0087F07B /* SwiftUI_MasterclassUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI MasterclassUITests";
+			sourceTree = "<group>";
+		};
+		0B6BFBDB2ABE95000087F07B /* Animations and Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				0B6BFBDC2ABE95590087F07B /* Animations.swift */,
+				0B6BFBDE2ABE95650087F07B /* AnimationTiming.swift */,
+				0B6BFBE02ABEBFCB0087F07B /* AnimationsUpdated.swift */,
+				0B6BFBE22ABEC0CC0087F07B /* Transitions.swift */,
+			);
+			path = "Animations and Transitions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +285,11 @@
 			files = (
 				0B6BFBB92ABE91EE0087F07B /* SwiftUI_Masterclass.xcdatamodeld in Sources */,
 				0B6BFBB62ABE91EE0087F07B /* Persistence.swift in Sources */,
+				0B6BFBE32ABEC0CC0087F07B /* Transitions.swift in Sources */,
+				0B6BFBE12ABEBFCB0087F07B /* AnimationsUpdated.swift in Sources */,
 				0B6BFBAF2ABE91ED0087F07B /* ContentView.swift in Sources */,
+				0B6BFBDD2ABE95590087F07B /* Animations.swift in Sources */,
+				0B6BFBDF2ABE95650087F07B /* AnimationTiming.swift in Sources */,
 				0B6BFBAD2ABE91ED0087F07B /* SwiftUI_MasterclassApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
